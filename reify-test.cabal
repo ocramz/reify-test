@@ -1,13 +1,13 @@
 name:                reify-test
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            Simplified implementation of `data-reify`
 description:         Please see README.md
-homepage:            https://github.com/githubuser/reify-test#readme
+homepage:            https://github.com/ocramz/reify-test#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2016 Author name here
+author:              Marco Zocca
+maintainer:          ocramz
+copyright:           2016 Marco Zocca
 category:            Web
 build-type:          Simple
 -- extra-source-files:
@@ -17,6 +17,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
+                     , containers
   default-language:    Haskell2010
 
 executable reify-test-exe
